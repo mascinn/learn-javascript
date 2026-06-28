@@ -55,3 +55,29 @@ console.log(firstName);
 console.log(lastName);
 console.log(age);
 console.log(job);
+
+
+console.log(`\n`);
+
+// Example 5
+// Destructure in function parameters
+const person3 = {
+    firstName: "Makhasin",
+    lastName: "Muhammad",
+    age: 21,
+    job: "Software Developer",
+}
+
+const person4 = {
+    firstName: "mascin",
+    lastName: "acin",
+    age: 23,
+}
+
+function displayPerson({firstName, lastName, age, job="Unemployed"}){
+    console.log(`Name: ${firstName} ${lastName}`);
+    console.log(`Age: ${age}`);
+    console.log(`Job: ${job}`);
+}
+
+displayPerson(person4);
