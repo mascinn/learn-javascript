@@ -1,0 +1,52 @@
+#myH1{
+    font-size: 5rem;
+}
+
+#button1{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#button2{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#button3{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+
+.buttons{
+    font-size: 2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.enabled{
+    background-color: hsl(204, 100%, 50%);
+    color: white;
+}
+
+.disabled{
+    background-color: hsl(0, 86%, 67%);
+    color: black;
+}
+
+.hover{
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+    font-weight: bold;
+}
